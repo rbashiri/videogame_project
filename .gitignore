@@ -1,0 +1,20 @@
+ 
+# Python cache/bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment variables
+.env
+.env.*
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Experiment/model artifacts
+models/
+mlruns/
+
+# Data files (all CSVs under data)
+data/*.csv
